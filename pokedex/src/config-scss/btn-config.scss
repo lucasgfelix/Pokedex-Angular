@@ -5,8 +5,10 @@
     align-items: center;
     width: 100%;
     padding: rem-calc(20) 0;
-    border-radius: rem-calc(10);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
     text-decoration: none;
+    transition: all 0.3;
     &__primary {
         color: var(--branco);
         background: var(--primary-color);
